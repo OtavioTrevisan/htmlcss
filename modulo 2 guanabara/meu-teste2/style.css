@@ -1,0 +1,7 @@
+div {
+    transition: all 2s cubic-bezier(0.05, 0.0007, 1, 7);
+}
+div:hover {
+    padding-left: 700px;
+    transition: padding-left 2s ease-in;
+}

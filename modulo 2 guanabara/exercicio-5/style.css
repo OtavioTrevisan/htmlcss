@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#pg2 > p {
+    display: none;
+}
+#pg2:hover > p {
+    display: block;
+    background-color: blue;
+}
+#pg2 {
+    height: auto;
+    width: 200px;
+    border: 1px solid black;
+}
+#pg2:hover {
+    height: auto;
+}

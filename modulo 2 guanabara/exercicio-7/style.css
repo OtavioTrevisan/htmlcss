@@ -1,0 +1,34 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: impact, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+header {
+    background-color:rgb(83, 87, 88) ;
+
+    padding: 10px 25px 30px 10px;
+    border: 2px solid black;
+}
+nav {
+    background-color: rgb(80, 72, 72);
+    margin-top: 25px;
+}
+a {
+    padding-right: 50px;
+}
+main {
+    background-color: rgb(83, 87, 88);
+    border: 2px solid black;
+    padding: 0px 0px 0px 0px;
+}
+footer {
+    margin: 600px 0 0 0;
+    padding: 100px;
+    background-color: rgb(68, 63, 63);
+    color: aliceblue;
+    border: 2px solid black;
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: "android";
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+body {
+    background-color: #84e1ad;
+}
+header{
+    background-image: linear-gradient(#43db87, #185033 90%);
+    color: rgb(255, 255, 255);
+    font-family: bebas neue;
+    box-shadow:  1px 1px 15px 1px black;
+}
+header > h1 {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 35px;
+}
+header > h2 {
+    color: rgba(232, 241, 236, 0.81);
+    text-align: center;
+    margin: 10px auto;
+    font-size: 0.9em;
+}
+header > nav > ul > li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 5px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(232 241 236);  
+    padding: 2px;  
+}
+a:hover {
+    background-color: rgba(240, 248, 255, 0.363);
+    border-radius: 5px;
+}
+main {
+    padding: 20px 0px;
+    margin: 0px 230px;
+    height: 100%;
+    background-color: #fcfcfc;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 1px 1px 37px 0px black;
+}
+main > article > h2 {
+    font-family: "android";
+    color: #185033;
+    font-size: 2em;
+}
+main > article > p {
+    text-indent: 20px;
+    font-family: bebas neue, Helvetica, sans-serif;
+    margin: 20px 0px;
+}
+main > article#especial > h2 {
+    background-image: linear-gradient(to right, #43db87, #43db8700 80%);
+}
+img {
+    margin: 10px auto;
+}
+#videoCaixa {
+    background-color: rgb(18, 75, 18);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+
+}
+iframe {
+    margin: 20px 30px;
+
+}
+article {
+    padding: 0px 20px;
+}
+article > aside > ul {
+    display: inline-block;
+    margin-right: 120px;
+    padding-left: 70px;
+    margin-top: 20px;
+    display: none;
+}
+main > article > aside {
+    font-family: bebas neue, Helvetica, sans-serif;
+    background-color: #c5ebd6;
+    border-radius: 20px;
+    height: 100%;
+}
+main > article > aside > h2 {
+    background-color: #2fa866;
+    color: #fcfcfc;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+
+}
+main > article > aside > p {
+    text-indent: 20px;
+    padding-left: 20px ;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: none;
+}
+main > article > aside:hover > p{
+    display: block;
+}
+main > article > aside:hover > ul{
+    display: inline-block;
+}
+main > p {
+    text-indent: 20px;
+    font-family: bebas neue, Helvetica, sans-serif;
+    margin: 20px 0px;
+}
+footer {
+    text-indent: 20px;
+    font-family: bebas neue, Helvetica, sans-serif;
+    background-color: #185033;
+    margin-top: 20px;
+    color: #fcfcfc;
+    text-align: center;
+}

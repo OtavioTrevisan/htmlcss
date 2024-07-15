@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+#a1 {
+    background-image: linear-gradient(#151F30, #0593A2);
+}
+#a2 {
+    background-image: linear-gradient(#F2CEA2, #D9725B);
+}
+#a3 {
+    background-image: linear-gradient(#D93636, #A62934);
+}
+#a4 {
+    background-image: linear-gradient(#45214A, #1A6566);
+}
