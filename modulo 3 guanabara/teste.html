@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        section {
+            height: 700px;
+            position: relative;
+            background-color: rgb(133, 59, 59);
+            padding: 10px;
+
+
+        }
+        article {
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            left: 50%;
+            top: 50%;
+            background-color: rgb(65, 143, 143);
+            transform: translate(-50%, -50%);
+            transition: transform 2s ease-in-out 0s  ;
+        }
+        article:hover {
+            transform: translate(200px, 200px);
+            transform: scale(0.5);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <article>
+
+        </article>
+    </section>
+</body>
+</html>
