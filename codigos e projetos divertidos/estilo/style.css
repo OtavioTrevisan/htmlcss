@@ -1,0 +1,26 @@
+body {
+    height: 1000px;
+}
+
+div#container {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 150px;
+}
+.item {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+#item-01 {
+    background-color: rgb(81, 0, 119);
+}
+#item-02 {
+    background-color: rgb(66, 2, 2);
+}
+#item-03 {
+    background-color: rgb(42, 165, 104);
+}
