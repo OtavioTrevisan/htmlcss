@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>teste</legend>
+            <p>
+                <label for="Iname">nome</label>
+                <input type="text" name="name" id="Iname" required>
+            </p>
+            <p>
+                <label for="Iemail">email:</label>
+                <input type="email" name="email" id="Iemail" required >
+            </p>
+            <p>
+                <label for="Itel">telefone</label>
+                <input type="tel" name="tel" id="Itel" minlength="10" required placeholder="(xx)xxxx-xxxx">
+            </p>
+        </fieldset>
+        <input type="submit" value="mandar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>

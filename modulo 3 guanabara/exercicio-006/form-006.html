@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <label for="estado">estados:</label><br>
+        <select name="estado" id="estado">
+            <option value="">selecione un estado</option>
+            <optgroup label="sul">
+                <option value="parana">parana</option>
+            </optgroup>
+            <optgroup label="centro">
+                <option value="são paulo">são paulo</option>
+            </optgroup>
+        </select>    
+        <br><label for="prof">profissão</label><br>
+        <input type="text" name="prof" id="prof" list="lista"><br>  
+        <datalist id="lista">
+            <option>professor</option>
+        </datalist>
+    </form>
+</body>
+</html>

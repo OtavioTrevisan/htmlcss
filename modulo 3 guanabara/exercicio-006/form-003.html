@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on" >
+        <p>
+            <label for="Iname">nome</label>
+            <input type="text" name="nome" id="INome" required autocomplete="username" maxlength="30" placeholder="nome completo">
+        </p>
+        <p>
+            <label for="Imedia">média</label>
+            <input type="number" name="media" id="Imedia" required step="0.1" placeholder="nota" max="10" min="0">
+        </p>
+        <p>
+            <label for="Idata">data da prova</label>
+            <input type="date" name="data" id="Idata" required value="2020-10-29">
+        </p>
+        <p>
+            <label for="Ihora">hora da prova</label>
+            <input type="time" name="hora" id="Ihora">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
