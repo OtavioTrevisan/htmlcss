@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        div.cont {
+            display: flex;
+            margin: auto;
+            width: 600px;
+            height: 200px;
+            border-radius:15px ;
+            background-color: aquamarine;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        div.item {
+            border-radius: 15px;
+            height: 100px;
+            width: 100px;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="item">text</div>
+        <div class="item">text</div>
+        <div class="item">text</div>
+    </div>
+</body>
+</html>
